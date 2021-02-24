@@ -2,13 +2,13 @@ package com.ucreativa;
 
 public class CoffeeBuilder extends StarbucksBuilder{
 
-	public CoffeeBuilder() {
-		
+	public CoffeeBuilder(String size) {
+		super(size);
 	}
 	
 	@Override
 	public void buildSize() {
-		super.myStarbucks.setSize("Venti");
+		//super.myStarbucks.setSize("Large");
 	}
 	
 	@Override

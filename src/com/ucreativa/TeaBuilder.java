@@ -2,13 +2,13 @@ package com.ucreativa;
 
 public class TeaBuilder extends StarbucksBuilder{
 
-	public TeaBuilder() {
-		
+	public TeaBuilder(String size) {
+		super(size);
 	}
 	
 	@Override
 	public void buildSize() {
-		super.myStarbucks.setSize("Venti");
+		//super.myStarbucks.setSize("Venti");
 	}
 	
 	@Override

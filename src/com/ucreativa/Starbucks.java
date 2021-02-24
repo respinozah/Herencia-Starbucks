@@ -6,7 +6,7 @@ public class Starbucks {
 	private String drink;
 	
 	public Starbucks() {
-		
+		System.out.println("Starbucks: new drink instance is created.");
 	}
 
 	public void setSize(String size) {
